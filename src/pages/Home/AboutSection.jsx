@@ -7,12 +7,12 @@ const MissionTabs = () => {
     {
       tabName: "Our Mission",
       tabContent:
-        "Our mission is to revolutionize the automotive landscape by delivering innovative solutions that prioritize safety, convenience, and excellence",
+        "Provide high quality affordable contract apply and supply solution.Create and cultivate long term relationship with clients.Respond immediately to the changing needs of our clients.Achieve complete customer satisfaction. Improve our service continuously. Maintain professional relationship with our field installers and service engineers by encouraging on going communication to achieve highest standard of performance. ",
     },
     {
       tabName: "Our Vision",
       tabContent:
-        "Our vision is simple yet profound – to redefine the automotive landscape by providing solutions that enhance safety, convenience, and driving experiences",
+        "The vision of LNVASUKI is of a highly trained and efficient team of technicians and custom service personal ready for any things that may accrue and quick to respond to customer needs concerns.",
     },
     {
       tabName: "Our Value",

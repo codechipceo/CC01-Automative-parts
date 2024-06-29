@@ -5,13 +5,22 @@ export const ServiceCard = ({ service }) => {
   const navigate = useNavigate();
   return (
     <div>
-      <Box display={"flex"}>
+      <Box display={"flex"} onClick={() => navigate("/services")}>
         <Box>
-          <img src={img} alt='' />
+          <img src={""} alt='' />
         </Box>
         <Box>
-          <Typography fontWeight={'bold '} variant="h6">{heading}</Typography>
-          <Typography fontWeight={"normal"} variant="body2" textAlign={"justify"}>{para}</Typography>
+          <Typography fontWeight={"bold "} variant='h6'>
+            {heading}
+          </Typography>
+          <Typography
+            fontWeight={"normal"}
+            variant='body2'
+            textAlign={"justify"}
+            color={"text.secondary"}
+          >
+            {para}
+          </Typography>
           {/* <Button variant='text' onClick={() => navigate(link)}>
             View More{" "}
           </Button> */}
