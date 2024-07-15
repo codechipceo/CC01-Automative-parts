@@ -1,13 +1,9 @@
+import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
+import CallIcon from "@mui/icons-material/Call";
 import { Box, Container, Typography, useTheme } from "@mui/material";
 import Grid2 from "@mui/material/Unstable_Grid2/Grid2";
-import React from "react";
-import LocationOnIcon from "@mui/icons-material/LocationOn";
-import CallIcon from "@mui/icons-material/Call";
-import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
 export const Footer = () => {
   const services = [
-    "Electrical System Diagnostics",
-    "Electronic Control Unit",
     "In Car Entertainment",
     " Advanced Driver-Assistance Systems",
     "Lighting Solutions",
