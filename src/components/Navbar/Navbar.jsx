@@ -70,7 +70,7 @@ export const Navbar = () => {
               textDecoration: "none",
             }}
           >
-            LNVASUKI ENTERPRISES
+            LNVASUKI ENTERPRISES PVT LTD
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>

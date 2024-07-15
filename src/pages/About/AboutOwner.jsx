@@ -34,21 +34,21 @@ export const AboutOwner = () => {
         />
         <Container>
           <Grid2 container>
-            <Grid2 item xs={12} md={5}>
+            <Grid2 item xs={12} md={12}>
               <img
                 src='ceo.jpg'
-                width={"100%"}
-                style={{ objectFit: "contain" }}
+                height={350}
+                style={{ objectFit: "contain", borderRadius: 30, overflow:'hidden' }}
               />
             </Grid2>
 
-            <Grid2 xs={12} md={6}>
+            <Grid2 xs={12} md={12} my={3}>
               {profile.map((eachPara, i) => {
                 return (
                   <Typography
                     mb={1}
                     color={"text.secondary"}
-                    variant='body2'
+                    variant='body1'
                     key={i}
                     textAlign={"justify"}
                   >

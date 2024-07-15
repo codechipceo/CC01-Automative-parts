@@ -2,11 +2,13 @@
 
 import { useTheme } from "@emotion/react";
 import { Box, Button, Container, Typography } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 import "swiper/css";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const SwiperComponent = ({ slides }) => {
+  const navigate  = useNavigate()
   const theme = useTheme();
   const fields = slides ? slides : ["Slide One", "Slide Two"];
   return (
@@ -59,6 +61,7 @@ const SwiperComponent = ({ slides }) => {
                     {heading}
                   </Typography>
                   <Button
+                    onClick={() => navigate("/contact-us")}
                     disableElevation
                     variant='contained'
                     sx={{

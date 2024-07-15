@@ -9,7 +9,7 @@ import Box from "@mui/material/Box";
 
 export const TestimonialCard = ({ testimonial }) => {
   return (
-    <Card sx={{ maxWidth: 345, margin: "auto", mt: 5 }}>
+    <Card sx={{ maxWidth: 345, margin: "auto", mt: 5, height:200 }}>
       <CardContent>
         <Typography variant='body2' color='text.secondary'>
           {testimonial.text}

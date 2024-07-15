@@ -1,21 +1,21 @@
 const serviceImagePath = "/images/services/";
 export const services = [
-  {
-    heading: "Electrical System Diagnostics",
-    para: "Identify and resolve electrical issues swiftly with our comprehensive diagnostics services. We offer battery testing, alternator and starter checks, and detailed diagnostic trouble code (DTC) scanning for accurate problem detection.",
-    secondPara:
-      "Our team of experienced technicians uses the latest technology to pinpoint issues quickly and effectively, ensuring your vehicle's electrical system is running smoothly and reliably.",
-    link: "",
-    img: `${serviceImagePath}electricSystemDiagnostic.webp`,
-  },
-  {
-    heading: "Electronic Control Unit (ECU) Services",
-    para: "Optimize your vehicle's performance with our specialized ECU services. We provide ECU testing, replacement, and performance tuning to ensure your car runs efficiently and smoothly.",
-    secondPara:
-      "Our experts can enhance your vehicle's engine management and overall functionality, offering tailored solutions to meet your specific needs and improve driving experience.",
-    link: "",
-    img: `${serviceImagePath}ecu.avif`,
-  },
+  // {
+  //   heading: "Electrical System Diagnostics",
+  //   para: "Identify and resolve electrical issues swiftly with our comprehensive diagnostics services. We offer battery testing, alternator and starter checks, and detailed diagnostic trouble code (DTC) scanning for accurate problem detection.",
+  //   secondPara:
+  //     "Our team of experienced technicians uses the latest technology to pinpoint issues quickly and effectively, ensuring your vehicle's electrical system is running smoothly and reliably.",
+  //   link: "",
+  //   img: `${serviceImagePath}electricSystemDiagnostic.webp`,
+  // },
+  // {
+  //   heading: "Electronic Control Unit (ECU) Services",
+  //   para: "Optimize your vehicle's performance with our specialized ECU services. We provide ECU testing, replacement, and performance tuning to ensure your car runs efficiently and smoothly.",
+  //   secondPara:
+  //     "Our experts can enhance your vehicle's engine management and overall functionality, offering tailored solutions to meet your specific needs and improve driving experience.",
+  //   link: "",
+  //   img: `${serviceImagePath}ecu.avif`,
+  // },
   {
     heading: "In-Car Entertainment and Connectivity",
     para: "Upgrade your driving experience with our premium in-car entertainment and connectivity solutions. From audio system installations to GPS navigation, Bluetooth, and hands-free kits, we ensure you stay connected and entertained on the road.",

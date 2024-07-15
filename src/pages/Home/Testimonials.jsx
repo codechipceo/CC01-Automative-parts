@@ -10,33 +10,33 @@ import { TestimonialCard } from "../../components/Cards/TestimonialCard";
 export const Testimonials = () => {
   const testimonials = [
     {
-      text: "Your business not only provides top-quality components but also offers excellent customer service. The delivery was fast, and the parts fit perfectly.",
-      name: "Ayush Aggarwal",
-      position: "Marketing Manager",
+      text: "It has been a wonderful experience in the last couple instances where I had some issues with the stereo system and the door buttons and both times the issue was effectively resolved at a very reasonable cost.",
+      name: "Raghavendra madi",
+      position: "Local Guide",
     },
     {
-      text: "The parts arrived well-packaged and exactly as described. My car is running smoothly again, thanks to you. I'll definitely be back for future purchases.",
-      name: "Karthik",
+      text: "A place where experience meets expertise. Inside the office, you see a short man who greets you with warmth and respect. He has vast knowledge on car Electronics and Electrical stuff. He offers wide range of products including Infotainment systems, car accessories etc.",
+      name: "RAGHU SATHYANARAYANA",
       position: "Car Enthusiast",
     },
     {
-      text: "Your business has become my go-to for everything I need. The detailed product descriptions and easy communication make my job so much easier.",
-      name: "Naren",
+      text: "Good team, have the best quality products with quality service and reasonable price",
+      name: "Vineeth Hiremath",
       position: "Autoparts Mechanic",
     },
     {
-      text: "They helped me find the exact part I needed and even provided tips for installation. The whole process was seamless.",
-      name: "Saqib",
+      text: "A great place for car accessories.  Mr. Sidhu is ur man at his best customer service and great knowledge on car products. Thank you.",
+      name: "Brijith g.p.",
       position: "DIY Car Repair",
     },
     {
-      text: "The parts are always genuine, and the prices are competitive. Plus, the efficient ordering process makes everything a breeze. Keep up the great work",
-      name: "Roger Scott",
+      text: "Very good responded and we'll knowledge people especially Mr siddu very humble and down to earth man. Thank you for the quality product and quality service.",
+      name: "Ramanathan shivaraman",
       position: "Marketing Manager",
     },
     {
-      text: "I've never had a better experience purchasing car parts online. The website is user-friendly, and the support team is incredibly helpful.",
-      name: "Priya Mehta",
+      text: "A good hope for repairing car music system and headlight,Natraj is polite and experienced person, who fix all issues in decent price",
+      name: "vedavyasa H,S",
       position: "Car Owner",
     },
     {
