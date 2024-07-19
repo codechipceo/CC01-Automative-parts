@@ -28,15 +28,21 @@ const itemArr = [
 export const Home = () => {
   const slides = [
     {
-      img: "images/bg_1.jpg",
-      subHeading: "We are best in industry",
-      heading: "One Roof For All Your Vehicle Safety & Entertainment Solution",
+      img: "images/bg-3.jpg",
+      // subHeading: "We are best in industry",
+      heading: "Car Entertainment System",
       buttonLink: "",
     },
     {
-      img: "images/bg_2.jpg",
-      subHeading: "We care about your vehicle",
-      heading: "Innovative Solutions for Every Automotive Need",
+      img: "images/bg-1.jpg",
+      // subHeading: "We care about your vehicle",
+      heading: "Security and Alarm System",
+      buttonLink: "",
+    },
+    {
+      img: "images/bg-2.jpg",
+      // subHeading: "We care about your vehicle",
+      heading: "Advance Driver Assistance System",
       buttonLink: "",
     },
   ];

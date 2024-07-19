@@ -1,16 +1,36 @@
 // src/components/SwiperComponent.js
 
 import { useTheme } from "@emotion/react";
-import { Box, Button, Container, Typography } from "@mui/material";
+import { Box, Button, Container, Typography, useMediaQuery } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import "swiper/css";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const SwiperComponent = ({ slides }) => {
-  const navigate  = useNavigate()
+  const navigate = useNavigate();
   const theme = useTheme();
   const fields = slides ? slides : ["Slide One", "Slide Two"];
+
+   const isXs = useMediaQuery(theme.breakpoints.down("xs"));
+   const isSm = useMediaQuery(
+     theme.breakpoints.up("sm") && theme.breakpoints.down("md")
+   );
+   const isMd = useMediaQuery(
+     theme.breakpoints.up("md") && theme.breakpoints.down("lg")
+   );
+   const isLg = useMediaQuery(theme.breakpoints.up("lg"));
+
+   let variant = "h4";
+   if (isXs) {
+     variant = "h4";
+   } else if (isSm) {
+     variant = "h4";
+   } else if (isMd) {
+     variant = "h4";
+   } else if (isLg) {
+     variant = "h3";
+   }
   return (
     <Swiper
       loop
@@ -34,10 +54,12 @@ const SwiperComponent = ({ slides }) => {
             <Box
               style={{
                 minHeight: "100vh",
+                height: "100%",
                 backgroundPosition: "center center",
                 // background: `url(${img})`,
                 cursor: "grab",
                 backgroundSize: "cover",
+                backgroundRepeat: "no-repeat",
                 backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${img})`,
               }}
             >
@@ -47,6 +69,7 @@ const SwiperComponent = ({ slides }) => {
                   display={"flex"}
                   flexDirection={"column"}
                   justifyContent={"center"}
+                  alignItems={"center"}
                   zIndex={20}
                 >
                   <Typography
@@ -56,11 +79,11 @@ const SwiperComponent = ({ slides }) => {
                     {" "}
                     {subHeading}
                   </Typography>
-                  <Typography color={"white"} variant='h2'>
+                  <Typography color={"white"} variant={variant}>
                     {" "}
                     {heading}
                   </Typography>
-                  <Button
+                  {/* <Button
                     onClick={() => navigate("/contact-us")}
                     disableElevation
                     variant='contained'
@@ -76,7 +99,7 @@ const SwiperComponent = ({ slides }) => {
                     }}
                   >
                     Book An Appointment{" "}
-                  </Button>
+                  </Button> */}
                 </Box>
               </Container>{" "}
             </Box>
