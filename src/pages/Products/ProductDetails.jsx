@@ -43,13 +43,21 @@ export const ProductDetails = () => {
       </Box> */}
       <Container disableGutters>
         <Grid2 container mt={5} columnSpacing={4}>
-          <Grid2 item xs={12} md={6} lg={6} display={"flex"}>
+          <Grid2
+            item
+            xs={12}
+            md={6}
+            lg={12}
+            display={"flex"}
+            sx={{ bgcolor: "#f8f9fd" }}
+          >
             <Box display={"flex"} flexDirection={"column"} gap={1} mt={1}>
               {extraImages.map((image, i) => {
                 return (
                   <Box key={i} sx={{ "&:hover": { cursor: "pointer" } }}>
                     <img
                       height={60}
+                      width={60}
                       style={{
                         border: selectedImage === image ? "1px solid red" : "",
                       }}
@@ -61,12 +69,18 @@ export const ProductDetails = () => {
                 );
               })}
             </Box>
-            <Box width={"100%"} height={"100%"}>
+            <Box
+              width={"100%"}
+              maxWidth={"800px"}
+              maxHeight={"600px"}
+              mx={"auto"}
+            >
               <img
                 src={`${selectedImage}`}
                 alt=''
-                style={{ objectFit: "cover" }}
+                // style={{ objectFit: "cover" }}
                 width={"100%"}
+                height={"100%"}
               />
             </Box>
           </Grid2>
@@ -74,7 +88,7 @@ export const ProductDetails = () => {
             item
             xs={12}
             md={6}
-            lg={6}
+            lg={12}
             py={4}
             my={2}
             display={"flex"}
@@ -99,6 +113,7 @@ export const ProductDetails = () => {
             >
               Price : &#8377; {price}
             </Typography>
+              <Typography fontWeight={"bold"}>Description</Typography>
             <Typography color={"grey"} textAlign={"justify"}>
               {" "}
               {description}
@@ -110,15 +125,13 @@ export const ProductDetails = () => {
             {bulletPointDescription.map((points, i) => {
               return (
                 <ul key={i}>
-                  <li>
-                    <Typography
-                      variant='body2'
-                      color='text.secondary'
-                      textAlign={"justify"}
-                    >
-                      {points}
-                    </Typography>
-                  </li>
+                  <Typography
+                    variant='body1'
+                    color='text.secondary'
+                    textAlign={"justify"}
+                  >
+                    {points}
+                  </Typography>
                 </ul>
               );
             })}

@@ -15,7 +15,7 @@ export const HeaderTwo = ({ pageName }) => {
           backgroundPosition: "center center",
           // background: `url(${img})`,
           backgroundSize: "cover",
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/bg_2.jpg)`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/bg_2.webp)`,
         }}
       >
         <Typography color={"white"} variant='h3' fontWeight={"bold"}>

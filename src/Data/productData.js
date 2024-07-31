@@ -5,7 +5,7 @@ export const productData = [
     title: "Reverse Parking Sensor",
     description:
       "This is Reverse Parking Sensor for Bus & Truck. Rate Voltage : 12V & 24V DC Battery. It has a 3 Color LED Display. It Contains 4 Sensors, 1 Control Box and Wiring. Detecting Distance : 0.3 – 2.0M. Alarm by 3 step Buzzer Sound.",
-    price: "2600",
+    price: "6999",
     extraImages: [
       `${productImagePath}reverseParkingSensors01.jpg`,
       `${productImagePath}reverseParkingSensors02.jpg`,
@@ -25,7 +25,7 @@ export const productData = [
     title: "Reverse Parking Sensor without CPU",
     description:
       "This is Reverse Parking Sensor for Bus & Truck. Rate Voltage : 12V & 24V DC Battery. It has a 3 Color LED Display. It Contains 4 Sensors, 1 Display and Wiring Harness. Detecting Distance : 0.3 – 1.8M. Alarm by 3 step Buzzer Sound.",
-    price: "1800",
+    price: "8499",
     extraImages: [`${productImagePath}reverseParkinNoCpu.jpg`],
     bulletPointDescription: [
       "This is Reverse Parking Sensor for Bus & Truck",
@@ -41,7 +41,7 @@ export const productData = [
     title: "Number Plate Rear View Camera",
     description:
       "This is a rear view Fish Eye camera which covers 140’ Wide angle of rear portion. When Switched on to reverse mode, This is 1080P camera with night vision. It works with 12V Battery. This is fixed in car near rear Number plate. It has Mirror image change options. And Guide line on / off options.",
-    price: "3200",
+    price: "2500",
     extraImages: [`${productImagePath}numberPlateRearViewCamera.jpg`],
     bulletPointDescription: [
       "This is a rear view Fish Eye camera which covers 140’ Wide angle of rear portion",
@@ -56,7 +56,7 @@ export const productData = [
     title: "7 Inch Bus Monitor With AHD Rear View Camera & 10mtr Cable",
     description:
       "Screen size: 7 inch AHD LCD monitor with touch button. Size format: 16:9 wide screen display. Video input: Video Input :2 channels/4 channel. TV system: PAL/NTSC. Resolution: 1024*600*RGB. Power supply: DC 12 -32V compatible. Feature: Super slim design, Remote control, OSD menu. Power consumption: <7W. Working temperature: -10℃ to 60℃. Storage temperature: -20℃to 70℃. View angle: UP—35°,DOWN—15°,L—45°,R—45°. Back Light Luminance: 350 cd/m2.",
-    price: "1500",
+    price: "18500",
     extraImages: [
       `${productImagePath}busMonitor.png`,
       `${productImagePath}busMonitor02.png`,
@@ -83,7 +83,7 @@ export const productData = [
     title: "Infotainment System",
     description:
       "7,8,9 and 10 inches Touch IPS screen. Available, Car specific, universal Frames for Each and every cars. Available car specific Wiring Harness, to avoid cutting of original wire. Available for inter communication module (CAN BUS) For Required cars. Speakers, antenna Speaker Specers.",
-    price: "2400",
+    price: "16000",
     bulletPointDescription: [
       "7,8,9 and 10 inches Touch IPS screen.",
       "Available, Car specific, universal Frames for Each and every cars.",
@@ -105,7 +105,7 @@ export const productData = [
     title: "Customized 7 Inch Aluminum Body Monitor",
     description:
       "Model: LNV007BMC. Features: Customized 7Inch aluminum metal body Monitor. Touch Key Pad included. Screen Guard protects from scratches and dust. Compatible with 12V/24V DC. TV System: NTSC/PAL. Resolution: 1024*(RGB)*600. Languages: Multiple Menu Languages. Working Voltage: 8~36V. Size format: 16:9 wide screen display. Video Input: 2 channels/4 channel. Power supply: DC 12 -32V compatible. Power consumption: <7W. Working temperature: -10℃ to 60℃. Storage temperature: -20℃ to 70℃. View angle: UP—35°, DOWN—15°, L—45°, R—45°. Back Light Luminance: 350 cd/m2. Separate trigger control wire on second camera. Supports 2 cameras video simultaneous input. Supports 1 camera audio simultaneous input. Self-protects DC voltage at Short-Circuit.",
-    price: "2750",
+    price: "11499",
     extraImages: [
       `${productImagePath}aluminiumMonitor01.jpg`,
       `${productImagePath}aluminiumMonitor.jpg`,
@@ -141,7 +141,7 @@ export const productData = [
     title: "Vehicle Speed Detection System",
     description:
       "Radar is installed at strategic locations to capture multiple lanes. Displays are installed in each lane to show the speeds of vehicles in the respective lanes. Cameras are strategically placed to detect vehicle ANPR. The system includes a camera with IR illuminator, radar, displays, network switches, outdoor enclosure, and a local processing unit. The client is responsible for providing internet/network and UPS.",
-    price: "1950",
+    price: "N/A",
     bulletPointDescription: [
       "Camera with IR illuminator",
       "Radar",
@@ -162,7 +162,7 @@ export const productData = [
     title: "Tippers Body Raised Warning system",
     description:
       "Eligendi dolorum obcaecati, animi voluptas adipisci perferendis officiis nulla eos? Eveniet velit laborum dolor cum facilis. The system includes an audio alert with a human voice saying 'TRUCKKA DALLA UPPAR HAI, KRUPIYA DALLA NICHE KARRE' accompanied by an LED light. The controller unit requires an input voltage of 10VDC - 24VDC, and the sensor is sealed with chemicals to protect from dust and moisture. The system is black in color.",
-    price: "3100",
+    price: "16499",
     bulletPointDescription: [
       "Audio Alert: Human voice 'TRUCKKA DALLA UPPAR HAI, KRUPIYA DALLA NICHE KARRE' with LED light",
       "Controller Unit: Input voltage 10VDC - 24VDC",
@@ -179,7 +179,7 @@ export const productData = [
     title: "Driver Fatigue Warning System",
     description:
       "Once the driver detects fatigue or distracted driving, the device immediately sends an alarm signal to alert the driver. The system includes a device that gives alerts based on the driver's behavior, with a buzzer sound and flash light.",
-    price: "2200",
+    price: "17499",
     bulletPointDescription: [
       "This device gives alert to driver based on his behavior.",
       "Buzzer sound and Flash light.",
@@ -195,7 +195,7 @@ export const productData = [
     title: "Driver Console display",
     description:
       "Porro pariatur quam iure error autem dolorum perferendis aspernatur, sapiente magnam fugiat, dignissimos consequatur. The console supports driver login and logout, displays ticket payment success or failure, and shows passenger seating count with support for 2 cabin cameras. It also supports a rear-view camera and has built-in Wi-Fi. The system includes a dome camera with a metal body for passenger view and can integrate customized applications.",
-    price: "2900",
+    price: "N/A",
     bulletPointDescription: [
       "Driver login and logout",
       "Ticket payment successful or fail display",
@@ -215,7 +215,7 @@ export const productData = [
     title: "Seat Belt with Reminder Buzzer and Voice Command",
     description:
       "Three-point automatic seat belts help restrain occupants in their seats during unexpected emergency braking, preventing secondary collisions and reducing harm. Each vehicle should be equipped with seat belts. The system includes a 1-meter long black seatbelt, suitable for installation in various vehicle models such as cars, trucks, buses, and trailers. It supports rear-view camera integration, built-in Wi-Fi, and can integrate customized applications. The dome camera has a metal body for passenger view.",
-    price: "2900",
+    price: "3499",
     bulletPointDescription: [
       "Length: 1 m",
       "Color: Black",
@@ -232,7 +232,7 @@ export const productData = [
     title: "Emergency Warning Light",
     description:
       "LED warning flash beacon lights provide 60 LED amber warning safety flashing strobe lights with a magnetic base. It includes a 16 ft straight cord suitable for vehicles like trucks, tractors, golf carts, UTVs, and buses, operating at 12V-24V. A cigar light socket is optional.",
-    price: "2900",
+    price: "3499",
     bulletPointDescription: [
       "LED Warning Flash Beacon Lights",
       "60 LED Amber Warning Safety Flashing Strobe Lights with Magnetic",
@@ -263,7 +263,7 @@ export const productData = [
     title: "LNVMC2U 3030 Fast Mobile Charger",
     description:
       "This USB + USB mobile fast charger is used in cars, trucks, and buses, featuring a rubber protective cover. It has an output voltage of USB: 5V/3A, 9V/3A, 12V/2.5A and an interface of QC3.0 + QC3.0. The output power is QC3.0 (30W) + QC3.0 (30W) with an input voltage of 12V/4.8A.",
-    price: "2900",
+    price: "1100",
     bulletPointDescription: [
       "Technical Specification",
       "USB + USB Mobile Fast Charger with rubber protective cover",
@@ -285,7 +285,7 @@ export const productData = [
     title: "LNV4.3 Monitor Camera",
     description:
       "This 4.3-inch monitor camera with a 15-meter heavy-duty RCA cable is used in cars, buses, and trucks. It works with a 12V/24V battery and features a wide-angle camera with IR. The display size is 4.3 inches with a format of 4:3 / 16:9. It has a power supply of DC 9V – 32V, video inputs AV1/AV2, video format PAL/NTSC, and a pixel resolution of 480(W)x272(H) / 800(W)x480(H).",
-    price: "2900",
+    price: "7500",
     bulletPointDescription: [
       "4.3 Inch Monitor Camera with 15-meter Heavy Duty RCA Cable",
       "Works with 12V/24V Battery",
@@ -304,7 +304,7 @@ export const productData = [
     title: "LNV007 Monitor Camera",
     description:
       "This 7-inch monitor camera comes with a 10-meter 4-pin aviation cable (optional lengths of 5m, 15m, and 20m). It's used in cars, buses, and trucks, working with a 12V/24V DC power supply. The TV system is PAL/NTSC with multiple menu languages. It supports 2 cameras with simultaneous video input and has a separate trigger control wire for the second camera. The working voltage is 8 – 36V with a power supply of DC 12-24V and dual video inputs AV1/AV2.",
-    price: "2900",
+    price: "11500",
     bulletPointDescription: [
       "7 inch Monitor Camera with 10-meter 4-pin Aviation Cable",
       "Used in Car/Bus/Truck",
@@ -326,7 +326,7 @@ export const productData = [
       "77 Ghz Millimeter-wave Radar Obstacle Avoidance Early Warning System",
     description:
       "The 77 GHz millimeter-wave obstacle avoidance radar provides early warning signals 1-2 seconds in advance. It includes a main control box, power line, early warning output line, buzzer, early warning light, prompt lamp extension line, radar line, radar bracket, radar extension line, optional display screen, and accessories package. The system works with a voltage of 12-24V, a radar working frequency band of 77-78 GHz, and can operate in temperatures ranging from -40℃ to +85℃. It has a refresh rate of 33Hz, with a distance resolution of 0.2m and speed resolution of 1.9km/h. The detection range is up to 40m with configurable detection areas.",
-    price: "2900",
+    price: "39499",
     bulletPointDescription: [
       "77 GHz millimeter-wave obstacle avoidance radar: 1-2s",
       "Main control box",

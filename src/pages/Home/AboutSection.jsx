@@ -66,7 +66,12 @@ export const AboutSection = () => {
         <Grid2 container columnSpacing={4}>
           <Grid2 item xs={12} md={6} lg={6}>
             <Box width={"100%"}>
-              <img src='images/about.jpg' alt='' width={"100%"} />
+              <img
+                src='images/about.webp'
+                alt=''
+                height={"100%"}
+                width={"100%"}
+              />
             </Box>
           </Grid2>
           <Grid2
