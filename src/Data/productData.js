@@ -246,7 +246,7 @@ export const productData = [
     title: "Passengers Counting Machine",
     description:
       "High accuracy passenger counting machine with over 95% accuracy in most buses worldwide and over 98% accuracy in buildings, day and night. It supports group device connections for easy placement and connectivity across multiple counters in retail chains, stores, malls, libraries, and parks. The cloud system allows data collection and analysis by managers without server costs for each store. It helps in counting footfall and analyzing visitor features for better marketing decisions.",
-    price: "2900",
+    price: "N/A",
     bulletPointDescription: [
       "High Accuracy: Over 95% in buses, over 98% in buildings",
       "Group Devices Connection: Easy connectivity for multiple counters",
